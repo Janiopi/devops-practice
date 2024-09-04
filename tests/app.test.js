@@ -17,5 +17,10 @@ describe('GET /',()=>{
         expect(res.statusCode).toEqual(200);//Codigo 200 ok
         expect(res.text).toBe('Hello, World!'); //Lo que se espera que retorne el enpoint /
     });
+
+    afterAll(async () => {
+        server.close(); // Close server after all tests
+    })
 });
+
 

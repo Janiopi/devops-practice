@@ -7,9 +7,10 @@ app.get('/',(req,res)=>{ // Root
 
 module.exports = app;
 
-const port = process.env.PORT || 3000; // Cargamos una variable de entorno o por defecto 3000
-app.listen(port,()=>{
-    console.log(`Server running on port ${port}`);
-
-})
+if (require.main === module) {
+    const port = process.env.PORT || 0; 
+    app.listen(port, () => {
+        console.log(`Server running on port ${port}`);
+    });
+}
 

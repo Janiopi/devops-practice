@@ -10,5 +10,7 @@ RUN npm install
 COPY . .
 # Expone el puerto en el que la aplicación correrá
 EXPOSE 3000
+#Establece una variable de entorno para el puerto
+ENV PORT=3000
 # Comando para iniciar la aplicación
 CMD ["node", "src/app.js"]

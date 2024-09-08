@@ -37,23 +37,23 @@ Gracias a las diversas habilidades presentes dentro de un equipo se agilizará e
 ## Configuración del entorno ##
 
 Creación de los directorios correspondientes
-![alt text](image.png)
+![alt text](/capturas/image.png)
 
 npm: Node package manager
 (El flag -y omite las preguntas al momento de crear el proyecto)
-![alt text](image-1.png)
+![alt text](/capturas/image-1.png)
 
 Instalación de express(framework backend) y jest(framework testeo)
-![alt text](image-2.png)
+![alt text](/capturas/image-2.png)
 
 Estructura del proyecto
-![alt text](image-3.png)
+![alt text](/capturas/image-3.png)
 
 Implementación de la API REST
-![alt text](image-4.png)
+![alt text](/capturas/image-4.png)
 
 Implementación del test para 'GET /'
-![alt text](image-5.png)
+![alt text](/capturas/image-5.png)
 
 
 ## Pipeline CI/CD ##
@@ -117,30 +117,30 @@ CMD ["node", "src/app.js"]
 
 
 Construyendo la docker image
-![alt text](image-6.png)
+![alt text](/capturas/image-6.png)
 
-![alt text](image-7.png)
+![alt text](/capturas/image-7.png)
 
 (En este caso el contenedor ya se estaba ejecutando)
-![alt text](image-8.png)
+![alt text](/capturas/image-8.png)
 
 Funciona :D
-![alt text](image-9.png)
+![alt text](/capturas/image-9.png)
 
 En caso queramos detener la ejecucion del contenedor
-![alt text](image-10.png)
+![alt text](/capturas/image-10.png)
 
 Docker-compose
 
 
-![alt text](image-12.png)
+![alt text](/capturas/image-12.png)
 
 
 ```
 docker-compose up --build -d
 ```
 
-![alt text](image-13.png)
+![alt text](/capturas/image-13.png)
 
 
 # Evaluación y comentarios

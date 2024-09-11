@@ -9,8 +9,8 @@ RUN npm install
 # Copia el resto de los archivos de la aplicación
 COPY . .
 # Expone el puerto en el que la aplicación correrá
-EXPOSE 3000
+EXPOSE 3001
 #Establece una variable de entorno para el puerto
-ENV PORT=3000
+ENV PORT=3001
 # Comando para iniciar la aplicación
 CMD ["node", "src/app.js"]
